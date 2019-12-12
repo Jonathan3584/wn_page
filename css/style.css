@@ -1,0 +1,234 @@
+body {
+    font-family: 'Ibarra Real Nova', serif;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1 {
+    line-height: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 100%;
+    margin-top: 0;
+    background-color: #3F88C5;
+    border-bottom: 4px solid #1C5D99;
+    color: white;
+}
+
+#logo {
+    font-family: 'Cormorant SC', serif;
+    margin: 15px auto 0 auto;
+}
+
+#wallace {
+    margin-bottom: 0;
+}
+
+#nordan {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.logo-name {
+    font-size: 60px;
+    font-weight: lighter;
+}
+
+#llp {
+    margin-top: 29px;
+    margin-left: 5px;
+    font-size: 35px;
+    font-weight: lighter;
+}
+
+#aol {
+    margin-top: 0;
+    font-size: 35px;
+    font-weight: lighter;
+    line-height: 0px;
+}
+
+#main-nav {
+    font-family: 'Cormorant SC', serif;
+    margin-top: 0;
+    height: 40px;
+    color: black;
+}
+
+#wm-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.wm-nav {
+    width: 100%;
+    text-align: center;
+}
+
+#wm-nav-home {}
+
+#wm-nav-experience {}
+
+#wm-nav-attorneys {}
+
+#wm-nav-contact {}
+
+#wm-nav-privacy {}
+
+.nav-button {}
+
+#home-button {}
+
+#experience-button {}
+
+#attorneys-button {}
+
+#contact-button {}
+
+#privacy-button {}
+
+.nav-span {
+    margin: auto;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 15% auto 15%;
+    flex: 1 0 auto;
+    height: 100%;
+}
+
+#content-body {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: top;
+    width: 100%;
+    border: 1px double #C1DFF0;
+    padding: 25px;
+    box-shadow: 2px 3px #0A2239;
+}
+
+#cb-left {
+    width: 35%;
+    border-right: 2px solid #1C5D99;
+}
+
+#cb-right {
+    width: 65%;
+    margin-left: 10px;
+}
+
+#attorney-content-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.context-text {
+    width: 100%;
+}
+
+#footer {
+    font-family: 'Cormorant SC', serif;
+    flex-shrink: 0;
+    margin: auto 0 0 0;
+    background-color: #0A2239;
+    height: 75px;
+}
+
+#footer-links {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 25px 15% 0 15%;
+    color: white;
+}
+
+.footer-link {}
+
+#footer-home {}
+
+#footer-experience {}
+
+#footer-attorneys {}
+
+#footer-contact {}
+
+#footer-privacy {}
+
+#footer-rights {}
+
+#footer-img {}
+
+#top-attorney-tiles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#bottom-attorney-tiles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.attorney-tile {
+    width: 35%;
+    margin: 35px;
+    border: 1px double #C1DFF0;
+    padding: 25px;
+    box-shadow: 2px 3px #0A2239;
+}
+
+.tile-body {}
+
+.tile-body-img {
+    max-width: 100%;
+}
+
+.tile-body-text {}
+
+.tile-header-text {
+    font-weight: bold;
+}
+
+.tile-contact-phone {}
+
+.tile-header-email {}
+
+.attorney-body-text {}
+
+
+
